@@ -9,6 +9,9 @@ body {
 li {
   list-style: none;
 }
+.navbar-toggler span {
+  outline: none;
+}
 .contact-info {
   display: flex;
 }
@@ -17,19 +20,6 @@ li {
   z-index: 2;
   position: relative;
 }
-/* i {
-  padding: 10px;
-  border: 1px solid #808185b6;
-  border-radius: 10px;
-  cursor: pointer;
-  font-size: 25px;
-}
-
-i:hover {
-  transition: 0.3s;
-  background: #3689ff;
-  color: white;
-} */
 .navbar-brand {
   font-size: 23px;
   font-weight: 600;
@@ -37,6 +27,16 @@ i:hover {
 .nav-link {
   font-size: 18px;
   font-weight: 500;
+}
+.navbar-toggler {
+  border: none;
+  color: black;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.accordion-button:focus {
+  box-shadow: none;
 }
 /* video.fullscreen {
   position: absolute;
@@ -68,3 +68,6 @@ i:hover {
 .content {
   z-index: 1;
 } */
+@media screen and(max-width: 575px) {
+  .col;
+}
