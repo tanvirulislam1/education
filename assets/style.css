@@ -34,6 +34,10 @@ li {
 .accordion-button:focus {
   box-shadow: none;
 }
+.fa-medal {
+  font-size: 35px;
+  color: rgb(19, 168, 255);
+}
 /* video.fullscreen {
   position: absolute;
   top: 50%;
