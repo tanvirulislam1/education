@@ -15,11 +15,7 @@ li {
 .contact-info {
   display: flex;
 }
-.feature {
-  margin-top: -90px;
-  z-index: 2;
-  position: relative;
-}
+
 .navbar-brand {
   font-size: 23px;
   font-weight: 600;
@@ -68,6 +64,16 @@ li {
 .content {
   z-index: 1;
 } */
-@media screen and(max-width: 575px) {
-  .col;
+
+@media (min-width: 1200px) {
+  .feature {
+    margin-top: -90px;
+    z-index: 2;
+    position: relative;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .feature {
+    margin-top: 15px;
+  }
 }
